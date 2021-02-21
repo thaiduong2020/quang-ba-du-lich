@@ -1,0 +1,89 @@
+ <div class="col-md-4 text-center bt ">
+            <div class="card ">
+                <a href="# ">
+                    <img id="img16" style=" width: 100%;height: 231px;border: none;margin: 0px;padding: 0px; " src="images/Nami.jpg " alt=" ">
+                </a>
+                <div class="badge badge-danger text-wrap dpb ">
+                    <h6>Điểm điến phổ biến</h6>
+                </div>
+                <div class="map ">
+                    <i class="fas fa-map-marker-alt " style="color: #f79321; "></i> Hàn quốc
+                </div>
+                <div style="text-align: left; margin: 0.5em 1em; ">
+                    <p class="name ">Nami</p>
+                    <span style="background-color: #9fc43a; border-radius: 4px; opacity: 0.9; padding: 0.2em; color: white; "> 9.2</span>
+                    <span style="color: #9fc43a; ">Tuyệt vời | </span>
+                    <span>10 đánh giá</span>
+                    <br>
+                    <br>
+                    <span class="price ">1,500,000 VND</span>
+                </div>
+            </div>
+        </div>
+         <div class="col-md-4 text-center bt ">
+            <div class="card ">
+                <a href="# ">
+                    <img id="img17" style=" width: 100%;height: 231px;border: none;margin: 0px;padding: 0px; " src="images/Tokyo.jpg " alt=" ">
+                </a>
+                <div class="badge badge-danger text-wrap dpb ">
+                    <h6>Điểm điến phổ biến</h6>
+                </div>
+                <div class="map ">
+                    <i class="fas fa-map-marker-alt " style="color: #f79321; "></i> Nhật bản
+                </div>
+                <div style="text-align: left; margin: 0.5em 1em; ">
+                    <p class="name ">Tokyo</p>
+                    <span style="background-color: #9fc43a; border-radius: 4px; opacity: 0.9; padding: 0.2em; color: white; "> 9.2</span>
+                    <span style="color: #9fc43a; ">Tuyệt vời | </span>
+                    <span>10 đánh giá</span>
+                    <br>
+                    <br>
+                    <span class="price ">1,500,000 VND</span>
+                </div>
+            </div>
+        </div>
+         <div class="col-md-4 text-center bt ">
+            <div class="card ">
+                <a href="# ">
+                    <img id="img18" style=" width: 100%;height: 231px;border: none;margin: 0px;padding: 0px; " src="images/Everland.jpg " alt=" ">
+                </a>
+                <div class="badge badge-danger text-wrap dpb ">
+                    <h6>Điểm điến phổ biến</h6>
+                </div>
+                <div class="map ">
+                    <i class="fas fa-map-marker-alt " style="color: #f79321; "></i> Hàn quốc
+                </div>
+                <div style="text-align: left; margin: 0.5em 1em; ">
+                    <p class="name ">Everland</p>
+                    <span style="background-color: #9fc43a; border-radius: 4px; opacity: 0.9; padding: 0.2em; color: white; "> 9.2</span>
+                    <span style="color: #9fc43a; ">Tuyệt vời | </span>
+                    <span>10 đánh giá</span>
+                    <br>
+                    <br>
+                    <span class="price ">1,500,000 VND</span>
+                </div>
+            </div>
+        </div>
+ <script>
+     $(document).ready(function() {
+            $("#img16").hover(function() {
+                $(this).attr("src", "images/Nami-2.jpg").css("height", "230px");
+            }, function() {
+                $(this).attr("src", "images/Nami.jpg").css("height", "231px");
+            });
+        });
+        $(document).ready(function() {
+            $("#img17").hover(function() {
+                $(this).attr("src", "images/Tokyo-2.jpg").css("height", "230px");
+            }, function() {
+                $(this).attr("src", "images/Tokyo.jpg").css("height", "231px");
+            });
+        });
+        $(document).ready(function() {
+            $("#img18").hover(function() {
+                $(this).attr("src", "images/Everland-2.jpg").css("height", "230px");
+            }, function() {
+                $(this).attr("src", "images/Everland.jpg").css("height", "231px");
+            });
+        });
+        </script>

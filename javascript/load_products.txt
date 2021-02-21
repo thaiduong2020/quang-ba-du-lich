@@ -1,0 +1,91 @@
+ <div class="col-md-4 text-center bt ">
+            <div class="card ">
+                <a href="# ">
+                    <img id="img13" style=" width: 100%;height: 231px;border: none;margin: 0px;padding: 0px; " src="images/Quy Nhơn - Kỳ Co.jpg " alt=" ">
+                </a>
+                <div class="badge badge-danger text-wrap dpb ">
+                    <h6>Điểm điến phổ biến</h6>
+                </div>
+                <div class="map ">
+                    <i class="fas fa-map-marker-alt " style="color: #f79321; "></i> Việt nam
+                </div>
+                <div style="text-align: left; margin: 0.5em 1em; ">
+                    <p class="name ">Quy Nhơn - Kỳ Co</p>
+                    <span style="background-color: #9fc43a; border-radius: 4px; opacity: 0.9; padding: 0.2em; color: white; "> 9.2</span>
+                    <span style="color: #9fc43a; ">Tuyệt vời | </span>
+                    <span>10 đánh giá</span>
+                    <br>
+                    <br>
+                    <span class="price ">1,500,000 VND</span>
+                </div>
+            </div>
+        </div>
+         <div class="col-md-4 text-center bt ">
+            <div class="card ">
+                <a href="# ">
+                    <img id="img14" style=" width: 100%;height: 231px;border: none;margin: 0px;padding: 0px; " src="images/Nha Trang - Đà Lạt.jpg " alt=" ">
+                </a>
+                <div class="badge badge-danger text-wrap dpb ">
+                    <h6>Điểm điến phổ biến</h6>
+                </div>
+                <div class="map ">
+                    <i class="fas fa-map-marker-alt " style="color: #f79321; "></i> Việt nam
+                </div>
+                <div style="text-align: left; margin: 0.5em 1em; ">
+                    <p class="name ">Nha Trang - Đà Lạt</p>
+                    <span style="background-color: #9fc43a; border-radius: 4px; opacity: 0.9; padding: 0.2em; color: white; "> 9.2</span>
+                    <span style="color: #9fc43a; ">Tuyệt vời | </span>
+                    <span>10 đánh giá</span>
+                    <br>
+                    <br>
+                    <span class="price ">1,500,000 VND</span>
+                </div>
+            </div>
+        </div>
+         <div class="col-md-4 text-center bt ">
+            <div class="card ">
+                <a href="# ">
+                    <img id="img15" style=" width: 100%;height: 231px;border: none;margin: 0px;padding: 0px; " src="images/Huế.jpg " alt=" ">
+                </a>
+                <div class="badge badge-danger text-wrap dpb ">
+                    <h6>Điểm điến phổ biến</h6>
+                </div>
+                <div class="map ">
+                    <i class="fas fa-map-marker-alt " style="color: #f79321; "></i> Việt nam
+                </div>
+                <div style="text-align: left; margin: 0.5em 1em; ">
+                    <p class="name ">Huế</p>
+                    <span style="background-color: #9fc43a; border-radius: 4px; opacity: 0.9; padding: 0.2em; color: white; "> 9.2</span>
+                    <span style="color: #9fc43a; ">Tuyệt vời | </span>
+                    <span>10 đánh giá</span>
+                    <br>
+                    <br>
+                    <span class="price ">1,500,000 VND</span>
+                </div>
+            </div>
+        </div>
+        <script>
+              $(document).ready(function() {
+            $("#img13").hover(function() {
+                $(this).attr("src", "images/Quy Nhơn - Kỳ Co-2.jpg").css("height", "230px");
+            }, function() {
+                $(this).attr("src", "images/Quy Nhơn - Kỳ Co.jpg").css("height", "231px");
+            });
+        });
+        $(document).ready(function() {
+            $("#img14").hover(function() {
+                $(this).attr("src", "images/Nha Trang - Đà Lạt-2.jpg").css("height", "230px");
+            }, function() {
+                $(this).attr("src", "images/Nha Trang - Đà Lạt.jpg").css("height", "231px");
+            });
+        });
+        $(document).ready(function() {
+            $("#img15").hover(function() {
+                $(this).attr("src", "images/Huế-2.jpg").css("height", "230px");
+            }, function() {
+                $(this).attr("src", "images/Huế.jpg").css("height", "231px");
+            });
+        });
+    
+        </script>
+       

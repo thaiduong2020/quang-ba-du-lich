@@ -1,0 +1,571 @@
+body {
+    background: #ecf0f5;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#thongbao {
+    display: none;
+}
+
+.NT {
+    display: none;
+}
+
+.QN,
+.MN {
+    display: none;
+}
+
+.nav-item>a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 2.4em;
+}
+
+.map {
+    background: #19497c;
+    width: 26%;
+    position: absolute;
+    height: 29px;
+    opacity: 0.9;
+    top: 12.6em;
+    color: white;
+}
+
+.price {
+    margin-left: 53%;
+    font-size: 22px;
+    font-weight: bold;
+    color: #00C1DE;
+    float: left;
+}
+
+.dpb {
+    width: 10rem;
+    position: absolute;
+    right: 0px;
+    top: 0em;
+    background-color: #e52822;
+}
+
+.name {
+    color: #003C71;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card {
+    width: 95%;
+    background: white;
+    height: auto;
+}
+
+.bt {
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    .top-right {
+        display: none;
+    }
+}
+
+.card :hover {
+    cursor: pointer;
+}
+
+.hd {
+    cursor: pointer;
+    color: #ff002d;
+}
+
+.test {
+    width: 90%;
+    cursor: pointer;
+    margin-left: 2em;
+    height: 350px;
+    background-image: url("../images/Dubai - Abu Dhabi 2.jpg");
+    animation-name: example;
+    animation-name: example;
+    background-size: cover;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        background-image: url("../images/Dubai - Abu Dhabi 3.jpg");
+        background-size: cover;
+    }
+    to {
+        background-image: url("../images/Dubai - Abu Dhabi 2.jpg");
+        background-size: cover;
+    }
+}
+
+.allBox {
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    width: 100%;
+}
+
+.div1 {
+    width: 50%;
+    height: 300px;
+    background-image: url("../images/banner1.jpg");
+    background-size: cover;
+    position: relative;
+    animation: mymove 2s;
+}
+
+.div2 {
+    width: 50%;
+    height: 300px;
+    background-image: url("../images/banner2.jpg");
+    background-size: cover;
+    position: relative;
+    animation: mymove2 2s;
+}
+
+@keyframes mymove {
+    from {
+        position: absolute;
+        margin-left: 60%;
+        right: 0px;
+    }
+    to {
+        position: absolute;
+        margin-left: 60%;
+        right: 600px;
+    }
+}
+
+@keyframes mymove2 {
+    from {
+        left: 0px;
+        margin-right: 60%;
+    }
+    to {
+        left: 600px;
+        margin-right: 60%;
+    }
+}
+
+#slide-toggle-show,
+#slide-toggle-hidden {
+    float: left;
+    position: fixed;
+    top: 220px;
+    z-index: 10000;
+    color: #003c71;
+    display: none;
+    cursor: pointer;
+}
+
+#slide-icon-show,
+#slide-icon-hide {
+    float: left;
+    position: fixed;
+    top: 260px;
+    z-index: 10000;
+    color: #dc3545;
+    cursor: pointer;
+    display: none;
+    font-size: 34px;
+}
+
+.box2 {
+    float: left;
+    overflow: hidden;
+    background: white;
+    display: none;
+    position: fixed;
+    top: 250px;
+    z-index: 10000;
+}
+
+.box4 {
+    width: 40px;
+    float: right;
+    overflow: hidden;
+    background: white;
+    position: absolute;
+    position: fixed;
+    top: 200px;
+    z-index: 10000;
+    right: 0px;
+}
+
+
+/* Add padding and border to inner content
+for better animation effect */
+
+.box-inner {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #a29415;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box3 {
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    position: fixed;
+    display: none;
+    top: 290px;
+    left: 40px;
+    z-index: 10000;
+    height: 200px;
+    width: 300px;
+    border: 1px solid #a29415;
+    padding: 1em;
+}
+
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.icon-one>i:hover {
+    font-size: 45px;
+    color: red;
+    text-shadow: 0px 0px 3px black;
+}
+
+.icon-one {
+    text-align: center;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+.icon-one>i {
+    font-size: 36px;
+    color: #e52822;
+}
+
+
+/* 
+
+
+.box-inner2 {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #a29415;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.du-lich {
+    background-color: #0f5f64;
+    width: 120px;
+    height: 81px;
+    color: white;
+    padding-top: 44px;
+    text-align: center;
+    background-image: url("../images/travel.png");
+    background-repeat: no-repeat;
+    background-position: center 15px;
+}
+
+.car {
+    background-color: #01a719;
+    width: 278px;
+    height: 81px;
+    padding-top: 44px;
+    color: white;
+    margin-bottom: 0.3em;
+    text-align: center;
+    background-image: url("../images/car.png");
+    background-repeat: no-repeat;
+    background-position: center 15px;
+}
+
+.ticket {
+    width: 153px;
+    height: 81px;
+    padding-top: 44px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0.3em;
+    background-color: #2fb1be;
+    background-image: url("../images/ticket.png");
+    background-repeat: no-repeat;
+    background-position: center 15px;
+}
+
+.title {
+    color: #555;
+}
+
+.hover-a :hover {
+    border-color: #555;
+    text-decoration: none;
+    border-color: #555;
+    text-decoration: none;
+    box-shadow: 0 1px 25px rgba(0, 0, 0, .4) inset;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.hover-icon1,
+.hover-icon2,
+.hover-icon3,
+.hover-icon4,
+.hover-icon5,
+.hover-icon6 {
+    text-align: center;
+    border-left: 1px dashed #a5a5a5;
+    border-bottom: 1px #a5a5a5;
+    border-top: 1px dashed #a5a5a5;
+    padding: 0.4em;
+    cursor: pointer;
+}
+
+.hover-icon1,
+.hover-icon2,
+.hover-icon3,
+.hover-icon4,
+.hover-icon5,
+.hover-icon6>i {
+    font-size: 20px;
+}
+
+.hover-icon1:hover {
+    background-color: #fc3400;
+    color: white;
+}
+
+.hover-icon2:hover {
+    background-color: #3b5897;
+    color: white;
+}
+
+.hover-icon3:hover {
+    background-color: #f0433a;
+    color: white;
+}
+
+.hover-icon4:hover {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.hover-icon5:hover {
+    background-color: #cb2027;
+    color: white;
+}
+
+.hover-icon6:hover {
+    background-color: #0084ff;
+    color: white;
+}
+
+.hover-icon1 {
+    color: #fc3400;
+}
+
+.hover-icon2 {
+    color: #3b5897;
+}
+
+.hover-icon3 {
+    color: #f0433a;
+}
+
+.hover-icon4 {
+    color: #1da1f2;
+}
+
+.hover-icon5 {
+    color: #cb2027;
+}
+
+.hover-icon6 {
+    color: #0084ff;
+}
+
+.hotel {
+    background-color: #ff9933;
+    width: 153px;
+    height: 81px;
+    color: white;
+    padding-top: 44px;
+    text-align: center;
+    background-image: url("../images/hotel.png");
+    background-repeat: no-repeat;
+    background-position: center 15px;
+}
+
+.d-travel {
+    background-color: #0f63a3;
+    width: 153px;
+    height: 81px;
+    margin-right: 0.3em;
+    margin-bottom: 0.3em;
+    color: white;
+    background-size: 195px;
+    padding-top: 44px;
+    text-align: center;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center 15px;
+}
+
+#box-data {
+    display: none;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #003c71;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 246px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+@-webkit-keyframes glowing {
+    0% {
+        background-color: #004A7F;
+        -webkit-box-shadow: 0 0 3px #004A7F;
+    }
+    50% {
+        background-color: #0094FF;
+        -webkit-box-shadow: 0 0 10px #0094FF;
+    }
+    100% {
+        background-color: #004A7F;
+        -webkit-box-shadow: 0 0 3px #004A7F;
+    }
+}
+
+@-moz-keyframes glowing {
+    0% {
+        background-color: #004A7F;
+        -moz-box-shadow: 0 0 3px #004A7F;
+    }
+    50% {
+        background-color: #0094FF;
+        -moz-box-shadow: 0 0 10px #0094FF;
+    }
+    100% {
+        background-color: #004A7F;
+        -moz-box-shadow: 0 0 3px #004A7F;
+    }
+}
+
+@-o-keyframes glowing {
+    0% {
+        background-color: #004A7F;
+        box-shadow: 0 0 3px #004A7F;
+    }
+    50% {
+        background-color: #0094FF;
+        box-shadow: 0 0 10px #0094FF;
+    }
+    100% {
+        background-color: #004A7F;
+        box-shadow: 0 0 3px #004A7F;
+    }
+}
+
+@keyframes glowing {
+    0% {
+        background-color: #004A7F;
+        box-shadow: 0 0 3px #004A7F;
+    }
+    50% {
+        background-color: #0094FF;
+        box-shadow: 0 0 10px #0094FF;
+    }
+    100% {
+        background-color: #004A7F;
+        box-shadow: 0 0 3px #004A7F;
+    }
+}
+
+.button {
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+}
+
+.img-rates {
+    text-align: center;
+}
+
+.zoom {
+    display: inline-block;
+    position: relative;
+}
+
+
+/* magnifying glass icon */
+
+.zoom:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(icon.png);
+}
+
+.zoom img {
+    display: block;
+}
+
+.zoom img::selection {
+    background-color: transparent;
+}

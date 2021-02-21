@@ -1,0 +1,20 @@
+
+<div class="col-md-4" style="background: #f1f1f1;margin: 0.5em;">
+<p style="padding: 1em;"><strong style="color:#212121;">Donald trump</strong><br>
+<span class="text-warning">★ ★ ★ ★ ★</span><br>
+I used to book tours on many different websites, but nowhere near am I as happy as at D-Travel. If given the opportunity I will continue to book here..
+</p>
+<small class="text-muted">Rated at Tour Paris on 30/6/2019</small>
+</div>
+<div class="col-md-4" style="background: #f1f1f1;margin: 0.5em;">
+<p style="padding: 1em;"><strong style="color:#212121;">Hồ Cẩm Đào</strong><br>
+<span class="text-warning">★ ★ ★ ★ ★</span><br>
+服务和服务这里无话可说，痛风！只是略微提醒了老师先生，去那里评估人4星，下一次有人敢邀请他去。.</p>
+<small class="text-muted">Posted at Tour Bali on 20/10/1956</small>
+</div>
+<div class="col-md-4" style="background: #f1f1f1;margin: 0.5em;">
+    <p style="padding: 1em;"><strong style="color:#212121;">Taylor Swift</strong><br>
+<span class="text-warning">★ ★ ★ ★ ★</span><br>
+Service and service here is nothing to say, ve ri gout! Only slightly reminded Mr. Teacher, went out there to evaluate people 4 stars, next time anyone dares to invite him to go</p>
+<small class="text-muted">Posted at Bali on 20/10/1956</small>
+</div>
